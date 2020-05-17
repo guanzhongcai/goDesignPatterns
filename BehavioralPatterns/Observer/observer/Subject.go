@@ -1,4 +1,4 @@
-package Observer
+package observer
 
 type Subject struct {
     obs     [] Observer //群聊
