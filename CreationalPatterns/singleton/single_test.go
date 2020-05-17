@@ -1,11 +1,12 @@
-package main
+package singleton
 
 import (
-    "design.patterns/CreationalPatterns/Singleton/singleton"
+    "design.patterns/CreationalPatterns/Singleton0/singleton"
     "fmt"
+    "testing"
 )
 
-func main() {
+func TestGetInterface(t *testing.T) {
 
     i1 := singleton.GetInterface()
     i2 := singleton.GetInterface()

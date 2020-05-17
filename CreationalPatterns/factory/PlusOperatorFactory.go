@@ -1,4 +1,4 @@
-package Factory
+package factory
 
 //操作的抽象
 type PlusOperatorFactory struct {

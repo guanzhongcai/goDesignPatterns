@@ -1,20 +1,20 @@
-package main
+package factory
 
 import (
-    "design.patterns/CreationalPatterns/Factory/Factory"
     "fmt"
+    "testing"
 )
 
-func main() {
+func TestFactory(t *testing.T) {
 
-    var factory Factory.OperatorFactory
-    factory = Factory.PlusOperatorFactory{}
+    var factory OperatorFactory
+    factory = PlusOperatorFactory{}
     op := factory.Create()
     op.SetLeft(20)
     op.SetRight(10)
     fmt.Println(op.Result())
 
-    factory = Factory.SubOperatorFactory{}
+    factory = SubOperatorFactory{}
     op = factory.Create()
     op.SetLeft(20)
     op.SetRight(10)

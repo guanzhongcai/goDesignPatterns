@@ -1,4 +1,4 @@
-package Factory
+package factory
 
 //实际运行类的接口
 type Operator interface {

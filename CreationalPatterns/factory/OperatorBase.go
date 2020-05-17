@@ -1,4 +1,4 @@
-package Factory
+package factory
 
 //数据
 type OperatorBase struct {
