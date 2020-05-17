@@ -1,2 +1,0 @@
-# goDesignPatterns
-go design patterns
