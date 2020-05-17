@@ -1,12 +1,14 @@
 package main
 
-import "design.patterns/CreationalPatterns/AbstractFactory"
+import (
+    "design.patterns/CreationalPatterns/AbstractFactory/abstractfactory"
+)
 
 func main() {
 
-    var factory AbstractFactory.DAOFactory
+    var factory abstractfactory.DAOFactory
     //factory = &AbstractFactory.MySQLFactory{}
-    factory = &AbstractFactory.OracleFactory{}
+    factory = &abstractfactory.OracleFactory{}
     factory.CreateOrderMainDAO().SaveOrderMain()
     factory.CreateOrderDetailDAO().SaveOrderDetail()
 }

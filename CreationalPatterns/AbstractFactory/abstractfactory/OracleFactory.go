@@ -1,4 +1,4 @@
-package AbstractFactory
+package abstractfactory
 
 //抽象工厂
 type OracleFactory struct {
