@@ -6,8 +6,8 @@ Design Patterns By Golang
 - [工厂模式（Factory Pattern）](CreationalPatterns/factory)
 - [抽象工厂模式（Abstract Factory Pattern）](CreationalPatterns/abstractfactory)
 - [单例模式（Singleton Pattern）](CreationalPatterns/singleton)
-- 建造者模式（Builder Pattern）
-- 原型模式（Prototype Pattern）
+- [建造者模式（Builder Pattern）](CreationalPatterns/builder)
+- [原型模式（Prototype Pattern）](CreationalPatterns/prototype)
 
 ## 结构型模式（Structural Patterns）
 - 适配器模式（Adapter Pattern）
