@@ -10,7 +10,7 @@ Design Patterns By Golang
 - [原型模式（Prototype Pattern）](CreationalPatterns/prototype)
 
 ## 结构型模式（Structural Patterns）
-- 适配器模式（Adapter Pattern）
+- [适配器模式（Adapter Pattern）](StructuralPatterns/adapter)
 - 桥接模式（Bridge Pattern）
 - 过滤器模式（Filter、Criteria Pattern）
 - 组合模式（Composite Pattern）
