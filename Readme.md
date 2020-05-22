@@ -13,11 +13,11 @@ Design Patterns By Golang
 - [适配器模式（Adapter Pattern）](StructuralPatterns/adapter)
 - 桥接模式（Bridge Pattern）
 - 过滤器模式（Filter、Criteria Pattern）
-- 组合模式（Composite Pattern）
+- [组合模式（Composite Pattern）](StructuralPatterns/composite)
 - [装饰器模式（Decorator Pattern）](StructuralPatterns/decorator)
 - 外观模式（Facade Pattern）
 - 享元模式（Flyweight Pattern）
-- 代理模式（Proxy Pattern）
+- [代理模式（Proxy Pattern）](StructuralPatterns/proxy)
 
 ## 行为型模式（Behavioral Patterns）
 - 责任链模式（Chain of Responsibility Pattern）
